@@ -1,0 +1,59 @@
+
+# Task 5: Matrix Algebra and Matrix Operations
+
+## 1. Objective
+
+The aim is to use matrices in Python to rotate and resize a square.
+
+## 2. Inputs
+
+The program uses four points that form a square. It rotates the square by 45 degrees, makes it twice as wide, and increases its height by 1.5 times.
+
+## 3. Mathematical Operations
+
+The program uses rotation and scaling matrices to calculate the new coordinates of the square.
+
+## 4. Original Output
+
+The program produced the transformation matrix and new coordinates for the four corners of the square.
+
+The determinant was 3.0.
+
+## 5. Modified Input
+
+I changed the rotation angle from 45 degrees to 90 degrees.
+
+## 6. Observation
+
+Changing the rotation angle from 45 degrees to 90 degrees changed the coordinates of the square. The determinant remained 3.0.
+
+## 7. Interpretation
+
+Matrices make it easier to rotate and resize objects by calculating their new coordinates.
+
+## 8. Related Real-World Problem
+
+Computer games use matrices to rotate and resize objects on the screen.
+
+## 9. Assumptions
+
+The object is represented by four points. The scaling values remain unchanged.
+
+## 10. New Input Data
+
+The rotation angle is changed to 90 degrees. The scaling values remain 2.0 and 1.5.
+
+## 11. Output
+
+The modified program produced new coordinates:
+
+[[0.0, 0.0],
+ [0.0, 2.0],
+ [-1.5, 2.0],
+ [-1.5, 0.0]]
+
+The determinant remained 3.0.
+
+## 12. Interpretation of the Modified Problem
+
+The new coordinates show the changed position of the object after rotation and resizing. This is useful in computer graphics and animation.

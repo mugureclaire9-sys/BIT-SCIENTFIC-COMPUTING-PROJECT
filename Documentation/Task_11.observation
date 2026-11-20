@@ -1,0 +1,46 @@
+
+# Task 11: Newton-Raphson and Secant Methods
+
+## 1. Objective
+The aim is to find equation roots using the Newton-Raphson and Secant methods.
+
+## 2. Inputs
+The original equation is:
+
+f(x) = x^2 - 4
+
+## 3. Mathematical Operations
+The program uses the Newton-Raphson method, which uses derivatives, and the Secant method, which uses two initial estimates to approximate a root.
+
+## 4. Original Output
+Newton-Raphson root = 2.0.
+Newton-Raphson iterations = 5.
+Secant root = 2.0.
+Secant iterations = 5.
+
+## 5. Modified Input
+The constant was changed from 4 to 9.
+
+## 6. Observation
+Both methods find the positive root of the original equation. Changing the constant changes the root. Both methods took 5 iterations in the original calculation.
+
+## 7. Interpretation
+The methods provide numerical estimates of equation roots using repeated calculations.
+
+## 8. Related Real-World Problem
+These methods are useful in engineering calculations and scientific modelling.
+
+## 9. Assumptions
+The functions are differentiable where Newton-Raphson is applied, and the initial estimates allow the methods to converge.
+
+## 10. New Input Data
+The modified equation is:
+
+f(x) = x^2 - 9
+
+## 11. Output
+The modified Newton-Raphson root is 3.0.
+The number of iterations is 5.
+
+## 12. Interpretation of the Modified Problem
+Changing the constant changes the root from 2 to 3. This demonstrates how numerical methods solve different equations.

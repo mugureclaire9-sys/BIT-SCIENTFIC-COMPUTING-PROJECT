@@ -1,0 +1,44 @@
+
+# Task 12: Polynomial and Nonlinear Equation Solving
+
+## 1. Objective
+The aim is to find the roots of polynomial equations using NumPy.
+
+## 2. Inputs
+The original polynomial equation is:
+
+x^2 - 5x + 6 = 0
+
+## 3. Mathematical Operations
+The program uses NumPy's np.roots() function to calculate the roots of a polynomial equation.
+
+## 4. Original Output
+The polynomial roots are:
+x = 3 and x = 2.
+
+## 5. Modified Input
+The coefficient of x was changed from -5 to -6, and the constant was changed from 6 to 8.
+
+## 6. Observation
+The original and modified polynomial equations produce different sets of roots.
+
+## 7. Interpretation
+Polynomial equations can be solved numerically using NumPy.
+
+## 8. Related Real-World Problem
+Polynomial equations are used in engineering, physics and financial calculations.
+
+## 9. Assumptions
+The polynomial coefficients are known and are numerical values.
+
+## 10. New Input Data
+The modified polynomial equation is:
+
+x^2 - 6x + 8 = 0
+
+## 11. Output
+The modified polynomial roots are:
+x = 4 and x = 2.
+
+## 12. Interpretation of the Modified Problem
+Changing the polynomial coefficients changes its roots. This shows how numerical methods can solve different polynomial equations.

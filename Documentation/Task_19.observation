@@ -1,0 +1,52 @@
+
+# Task 19: Numerical Optimization
+
+## 1. Objective
+The aim is to find the minimum value of a mathematical function using SciPy optimization.
+
+## 2. Inputs
+The original function is:
+
+f(x) = (x - 3)² + 4
+
+Initial guess: x = 0.
+
+## 3. Mathematical Operations
+The program uses SciPy's minimize() function to find the value of x that produces the smallest function value.
+
+## 4. Original Output
+Minimum x = 3.0.
+
+Minimum function value = 4.0.
+
+## 5. Modified Input
+The function was changed to:
+
+f(x) = (x - 5)² + 2
+
+## 6. Observation
+Changing the function changes the location and value of its minimum point.
+
+## 7. Interpretation
+Numerical optimization helps identify the best solution by finding the minimum or maximum of a function.
+
+## 8. Related Real-World Problem
+Optimization is used in business planning, engineering design, cost reduction and resource allocation.
+
+## 9. Assumptions
+The function is continuous and has a minimum within the search region.
+
+## 10. New Input Data
+The modified function is:
+
+f(x) = (x - 5)² + 2
+
+Initial guess: x = 0.
+
+## 11. Output
+Minimum x = 5.0.
+
+Minimum function value = 2.0.
+
+## 12. Interpretation of the Modified Problem
+The modified function has its minimum at x = 5, with a minimum value of 2. This shows how optimization responds to changes in a mathematical function.

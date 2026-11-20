@@ -1,0 +1,50 @@
+
+# Task 18: Numerical Solution of ODEs Using SciPy
+
+## 1. Objective
+The aim is to solve an ordinary differential equation numerically using SciPy.
+
+## 2. Inputs
+The differential equation is:
+
+dy/dt = -2y
+
+Initial value: y(0) = 1.
+
+Time interval: 0 to 2.
+
+## 3. Mathematical Operations
+The program uses SciPy's solve_ivp() function to approximate the solution of the differential equation over the given time interval.
+
+## 4. Original Output
+Initial value = 1.
+
+Estimated value at t = 2 = 0.018355.
+
+## 5. Modified Input
+The initial value was changed from 1 to 2.
+
+## 6. Observation
+Changing the initial value changes the numerical solution.
+
+## 7. Interpretation
+SciPy solves differential equations numerically using an equation and an initial condition.
+
+## 8. Related Real-World Problem
+Numerical ODE solvers are used in physics, engineering, population modelling and scientific simulations.
+
+## 9. Assumptions
+The differential equation is well-defined over the selected time interval, and the initial value is known.
+
+## 10. New Input Data
+The modified initial value is 2.
+
+The differential equation and time interval remain unchanged.
+
+## 11. Output
+New initial value = 2.
+
+Estimated value at t = 2 = 0.03671.
+
+## 12. Interpretation of the Modified Problem
+Increasing the initial value from 1 to 2 approximately doubles the solution at the same time, demonstrating how initial conditions affect numerical solutions.

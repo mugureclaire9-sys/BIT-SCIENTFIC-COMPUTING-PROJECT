@@ -1,0 +1,50 @@
+
+# Task 9: Eigenvalues and Eigenvectors
+
+## 1. Objective
+The aim is to calculate eigenvalues and eigenvectors of a matrix using NumPy.
+
+## 2. Inputs
+The original matrix is:
+
+A = [[4, 1], [2, 3]]
+
+## 3. Mathematical Operations
+The program uses NumPy's np.linalg.eig() function to calculate the eigenvalues and eigenvectors of a square matrix.
+
+## 4. Original Output
+The eigenvalues are:
+5 and 2.
+
+The eigenvectors are approximately:
+[[0.707, -0.447], [0.707, 0.894]].
+
+## 5. Modified Input
+The first element of the matrix was changed from 4 to 5.
+
+## 6. Observation
+Changing the matrix values changes its eigenvalues and eigenvectors. NumPy displays the results with a complex-number format, but the imaginary parts are zero.
+
+## 7. Interpretation
+Eigenvalues and eigenvectors describe important properties of a matrix and are useful in numerical analysis.
+
+## 8. Related Real-World Problem
+Eigenvalues and eigenvectors are used in engineering, computer graphics and data analysis.
+
+## 9. Assumptions
+The input matrix is a square matrix, and its values are numerical.
+
+## 10. New Input Data
+The modified matrix is:
+
+A = [[5, 1], [2, 3]]
+
+## 11. Output
+The modified eigenvalues are approximately:
+5.732 and 2.268.
+
+The eigenvectors are approximately:
+[[0.807, -0.344], [0.591, 0.939]].
+
+## 12. Interpretation of the Modified Problem
+The modified matrix produces different eigenvalues and eigenvectors, showing how changes in a matrix affect its properties.

@@ -1,0 +1,59 @@
+
+# Task 4: Floating-Point Arithmetic and Numerical Errors
+
+## 1. Objective
+
+The aim is to understand floating-point errors and calculate numerical errors using Python.
+
+## 2. Inputs
+
+The program uses 0.1, 0.2 and 0.3 for floating-point calculations. It also uses 1.414 as an approximation of the square root of 2.
+
+## 3. Mathematical Operations
+
+The program performs addition and calculates absolute and relative errors.
+
+Absolute error = |True value - Approximate value|
+
+Relative error = Absolute error / |True value|
+
+## 4. Original Output
+
+The addition of 0.1 and 0.2 produced 0.30000000000000004 instead of exactly 0.3.
+
+The exact comparison returned False, while np.isclose() returned True.
+
+The absolute error was 0.0002135624, and the relative error was 0.0001510114.
+
+## 5. Modified Input
+
+I changed the approximate value from 1.414 to 1.4142.
+
+## 6. Observation
+
+The modified approximation produced a smaller absolute error than the original approximation.
+
+
+## 7. Interpretation
+
+Increasing the accuracy of an approximate value reduces numerical error.
+
+## 8. Related Real-World Problem
+
+Financial and scientific applications use numerical calculations that require accurate results.
+
+## 9. Assumptions
+
+The square root of 2 is treated as the true reference value. The approximation is given to three or four decimal places.
+
+## 10. New Input Data
+
+The new approximate value is 1.4142 instead of 1.414.
+
+## 11. Output
+
+The modified absolute error was 0.0000135624, showing an improvement in accuracy.
+
+## 12. Interpretation of the Modified Problem
+
+The new approximation is closer to the true value. This demonstrates how numerical accuracy can be improved by using more precise values.

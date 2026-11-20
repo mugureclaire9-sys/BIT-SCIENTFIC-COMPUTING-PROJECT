@@ -1,0 +1,49 @@
+# Task 15: Numerical Differentiation
+
+## 1. Objective
+The aim is to estimate the derivative of a mathematical function using the central difference method.
+
+## 2. Inputs
+The function is f(x) = x^3.
+The point of differentiation is x = 2.
+The original step size is h = 0.1.
+
+## 3. Mathematical Operations
+The central difference formula is:
+
+f'(x) = [f(x+h) - f(x-h)] / 2h
+
+The exact derivative of x^3 at x = 2 is 12.
+
+## 4. Original Output
+Step size = 0.1.
+Estimated derivative = 12.01.
+Absolute error = 0.01.
+
+## 5. Modified Input
+The step size was changed from 0.1 to 0.01.
+
+## 6. Observation
+The smaller step size produced a more accurate derivative estimate.
+
+## 7. Interpretation
+Numerical differentiation estimates the rate of change of a function. A smaller step size can improve accuracy.
+
+## 8. Related Real-World Problem
+Numerical differentiation is used in physics and engineering to estimate speed, acceleration and rates of change.
+
+## 9. Assumptions
+The function is continuous and differentiable around x = 2.
+
+## 10. New Input Data
+The function remains f(x) = x^3.
+The point remains x = 2.
+The modified step size is h = 0.01.
+
+## 11. Output
+Step size = 0.01.
+Estimated derivative = 12.0001.
+Absolute error = 0.0001.
+
+## 12. Interpretation of the Modified Problem
+The smaller step size reduced the estimation error from 0.01 to 0.0001, making the result closer to the exact derivative of 12.

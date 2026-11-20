@@ -1,0 +1,56 @@
+
+# Task 17: Ordinary Differential Equations – Euler Method
+
+## 1. Objective
+The aim is to solve an ordinary differential equation approximately using Euler's method.
+
+## 2. Inputs
+The differential equation is:
+
+dy/dx = x + y
+
+Initial condition: y(0) = 1.
+
+Original step size: 0.1.
+
+Final value of x: 0.5.
+
+## 3. Mathematical Operations
+Euler's method uses the current values of x and y to estimate the next value of y.
+
+Formula:
+
+y(new) = y(old) + h * f(x, y)
+
+## 4. Original Output
+Step size = 0.1.
+
+Estimated y at x = 0.5 = 1.72102.
+
+## 5. Modified Input
+The step size was changed from 0.1 to 0.05.
+
+## 6. Observation
+Changing the step size changes the estimated solution of the differential equation.
+
+## 7. Interpretation
+Euler's method approximates solutions by taking small steps from the initial condition.
+
+## 8. Related Real-World Problem
+Euler's method can be used to model population growth, motion and changing quantities over time.
+
+## 9. Assumptions
+The differential equation is continuous over the interval, and the initial condition is known.
+
+## 10. New Input Data
+The modified step size is 0.05.
+
+The differential equation and initial condition remain unchanged.
+
+## 11. Output
+New step size = 0.05.
+
+Estimated y at x = 0.5 = 1.757789.
+
+## 12. Interpretation of the Modified Problem
+The smaller step size produces a different approximation. Using smaller steps generally improves the accuracy of Euler's method.

@@ -1,0 +1,50 @@
+
+# Task 8: Iterative Methods for Linear Systems
+
+## 1. Objective
+The aim is to solve systems of linear equations using the Jacobi iterative method.
+
+## 2. Inputs
+The program uses the equations represented by:
+
+A = [[10, 1, 1], [2, 10, 1], [2, 2, 10]]
+
+B = [12, 13, 14]
+
+## 3. Mathematical Operations
+The program uses the Jacobi iterative method to estimate the unknown values by repeatedly updating the solutions until the required accuracy is reached.
+
+## 4. Original Output
+The solution is:
+x = 1, y = 1, z = 1.
+
+Number of iterations = 13.
+
+## 5. Modified Input
+The first constant was changed from 12 to 13.
+
+## 6. Observation
+The modified input produces different solution values. Both calculations take 13 iterations to reach the required accuracy.
+
+## 7. Interpretation
+The Jacobi method solves equations through repeated calculations until the solution becomes sufficiently accurate.
+
+## 8. Related Real-World Problem
+The method can be used in engineering simulations and electrical network calculations.
+
+## 9. Assumptions
+The coefficient matrix has non-zero diagonal values and is diagonally dominant, allowing the method to converge for this system.
+
+## 10. New Input Data
+The modified constants are:
+
+B = [13, 13, 14]
+
+## 11. Output
+The modified solution is:
+x = 1.104, y = 0.981, z = 0.983.
+
+Number of iterations = 13.
+
+## 12. Interpretation of the Modified Problem
+Changing the first constant changes the estimated values of the unknown variables. This demonstrates how iterative methods can solve systems of linear equations.

@@ -1,0 +1,54 @@
+
+# Task 3: Mathematical Functions and Vectorization
+
+## 1. Objective
+
+The aim is to use mathematical functions and NumPy vectorization to process network latency measurements.
+
+## 2. Inputs
+
+The program generates one million random network latency readings between 5 and 250 milliseconds.
+
+## 3. Mathematical Operations
+
+The program converts milliseconds into seconds by dividing by 1000. It then squares each value.
+
+## 4. Original Output
+
+The program produced the first five squared latency values:
+
+[0.03787665, 0.01266192, 0.04637842, 0.03092504, 0.00078812]
+
+The loop execution time was 0.566 seconds, while NumPy vectorization took 0.0098 seconds.
+
+## 5. Modified Input
+
+I reduced the number of latency readings from 1,000,000 to 100,000.
+
+## 6. Observation
+
+NumPy vectorization was approximately 57.8 times faster than the ordinary Python loop. This shows that vectorization is more efficient when processing large amounts of data.
+
+## 7. Interpretation
+
+NumPy vectorization allows mathematical operations to be performed on many values at once. It is generally faster than using ordinary Python loops for large arrays.
+
+## 8. Related Real-World Problem
+
+Internet service providers can use mathematical operations to analyse network latency and monitor network performance.
+
+## 9. Assumptions
+
+The latency readings are randomly generated and fall between 5 and 250 milliseconds.
+
+## 10. New Input Data
+
+The number of latency readings was reduced to 100,000 while keeping the same latency range.
+
+## 11. Output
+
+The program produces 100,000 squared latency values and measures the execution time.
+
+## 12. Interpretation of the Modified Problem
+
+The modified program processes fewer network readings. This demonstrates how changing input size affects processing time.

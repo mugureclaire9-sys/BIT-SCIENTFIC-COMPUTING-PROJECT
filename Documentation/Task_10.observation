@@ -1,0 +1,51 @@
+
+# Task 10: Bisection and Fixed-Point Root Finding
+
+## 1. Objective
+The aim is to find the roots of equations using the bisection and fixed-point methods.
+
+## 2. Inputs
+The original equation is:
+
+x^3 - x - 2 = 0
+
+The bisection interval is [1, 2].
+
+## 3. Mathematical Operations
+The program uses the bisection method and fixed-point iteration to approximate the root of the equation.
+
+## 4. Original Output
+Bisection root = 1.521380.
+Bisection iterations = 19.
+Fixed-point root = 1.521380.
+Fixed-point iterations = 7.
+
+## 5. Modified Input
+The constant was changed from 2 to 3.
+
+## 6. Observation
+Both methods find approximately the same root for the original equation. Changing the constant produces a different root.
+
+## 7. Interpretation
+Numerical root-finding methods can estimate solutions to equations that may be difficult to solve directly.
+
+## 8. Related Real-World Problem
+Root-finding methods are used in engineering, science and mathematical modelling.
+
+## 9. Assumptions
+The equation is continuous within the selected interval, and the bisection interval contains a root.
+
+## 10. New Input Data
+The modified equation is:
+
+x^3 - x - 3 = 0
+
+The bisection interval remains [1, 2].
+
+## 11. Output
+The modified bisection root is approximately 1.671700.
+
+The number of iterations is 19.
+
+## 12. Interpretation of the Modified Problem
+Changing the constant changes the root of the equation. This demonstrates how numerical methods can solve different mathematical problems.

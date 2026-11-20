@@ -1,0 +1,50 @@
+
+# Task 14: Curve Fitting and Approximation
+
+## 1. Objective
+The aim is to fit a mathematical curve to given data points using SciPy.
+
+## 2. Inputs
+The original data is:
+
+x = [1, 2, 3, 4, 5]
+y = [3, 5, 7, 9, 11]
+
+## 3. Mathematical Operations
+The program uses SciPy's curve_fit() function to determine the slope and intercept of a straight-line model.
+
+## 4. Original Output
+Slope = 2.0.
+Intercept = 1.0.
+Predicted value at x = 6 is 13.0.
+
+## 5. Modified Input
+The original y-values were changed to:
+
+[4, 7, 10, 13, 16]
+
+## 6. Observation
+Changing the data points changes the fitted line and the predicted value.
+
+## 7. Interpretation
+Curve fitting helps identify mathematical relationships between variables and make predictions.
+
+## 8. Related Real-World Problem
+Curve fitting is used in scientific experiments, business forecasting and analysing trends.
+
+## 9. Assumptions
+The data follows an approximately linear relationship.
+
+## 10. New Input Data
+The modified data is:
+
+x = [1, 2, 3, 4, 5]
+y = [4, 7, 10, 13, 16]
+
+## 11. Output
+Slope = 3.0.
+Intercept = 1.0.
+Predicted value at x = 6 is 19.0.
+
+## 12. Interpretation of the Modified Problem
+The modified data produces a steeper fitted line and a higher predicted value, showing how curve fitting responds to changes in input data.

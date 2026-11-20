@@ -1,0 +1,54 @@
+
+# Task 16: Numerical Integration
+
+## 1. Objective
+The aim is to estimate the area under a curve using the trapezoidal rule.
+
+## 2. Inputs
+The original function is:
+
+f(x) = x²
+
+The integration interval is from 0 to 4.
+
+## 3. Mathematical Operations
+The program uses numerical integration with SciPy's trapezoid() function to estimate the area under the curve. It also calculates the exact area for comparison.
+
+## 4. Original Output
+Estimated area = 22.0.
+
+Exact area = 21.3333.
+
+Absolute error = 0.6667.
+
+## 5. Modified Input
+The upper integration limit was changed from 4 to 5.
+
+## 6. Observation
+Changing the upper limit increases the estimated area and the absolute error.
+
+## 7. Interpretation
+Numerical integration estimates the area under a curve using smaller trapezoids. The estimate may differ slightly from the exact mathematical answer.
+
+## 8. Related Real-World Problem
+Numerical integration is used to estimate distance travelled, areas, volumes and accumulated quantities in scientific and engineering problems.
+
+## 9. Assumptions
+The function is continuous over the integration interval, and the selected data points are sufficient for an approximate result.
+
+## 10. New Input Data
+The modified function remains:
+
+f(x) = x²
+
+The new integration interval is from 0 to 5.
+
+## 11. Output
+Estimated area = 42.5.
+
+Exact area = 41.6667.
+
+Absolute error = 0.8333.
+
+## 12. Interpretation of the Modified Problem
+Increasing the upper integration limit increases the area under the curve. The trapezoidal rule provides an approximation, which may contain a small numerical error.

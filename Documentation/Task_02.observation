@@ -1,0 +1,56 @@
+
+# Task 2: NumPy Arrays and Numerical Computation
+
+## 1. Objective
+
+The aim is to use NumPy arrays to store temperature readings and perform numerical calculations.
+
+## 2. Inputs
+
+The program uses 24 hourly temperature readings in degrees Celsius.
+
+## 3. Mathematical Operations
+
+The program calculates the mean, minimum and maximum temperatures. It also converts Celsius to Fahrenheit using:
+
+F = 1.8C + 32
+
+## 4. Original Output
+
+The mean temperature is 23.12°C.
+
+The minimum temperature is 17.5°C, while the maximum is 29.4°C.
+
+The program also displays the first six Fahrenheit readings.
+
+## 5. Modified Input
+
+I changed the first temperature reading from 18.5°C to 20.5°C.
+
+## 6. Observation
+
+The mean temperature increased from 23.12°C to 23.20°C. The minimum and maximum temperatures remained unchanged.
+
+## 7. Interpretation
+
+Changing one temperature reading affected the average temperature but did not affect the minimum or maximum values.
+
+## 8. Related Real-World Problem
+
+A weather station can use NumPy to analyse daily temperature readings and monitor changes in weather conditions.
+
+## 9. Assumptions
+
+The weather station records 24 temperature readings per day. All readings are measured in degrees Celsius.
+
+## 10. New Input Data
+
+The first temperature reading was changed to 20.5°C. The other 23 readings remained unchanged.
+
+## 11. Output
+
+The modified mean temperature is 23.20°C. The minimum is 17.5°C and the maximum is 29.4°C.
+
+## 12. Interpretation of the Modified Problem
+
+The modified results show that NumPy can quickly calculate temperature statistics and update the results when new measurements are introduced.

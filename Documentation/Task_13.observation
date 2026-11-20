@@ -1,0 +1,48 @@
+
+# Task 13: Interpolation
+
+## 1. Objective
+The aim is to estimate unknown values between known data points using linear interpolation.
+
+## 2. Inputs
+The original data is:
+
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 30, 40, 50]
+
+## 3. Mathematical Operations
+The program uses SciPy's interp1d() function to estimate values between known data points using linear interpolation.
+
+## 4. Original Output
+Estimated value at x = 2.5 is 25.0.
+Estimated value at x = 3.5 is 35.0.
+
+## 5. Modified Input
+The y-values were changed to:
+
+[10, 25, 35, 45, 55]
+
+## 6. Observation
+Changing the known y-values changes the estimated values produced by interpolation.
+
+## 7. Interpretation
+Linear interpolation estimates unknown values using the relationship between nearby known data points.
+
+## 8. Related Real-World Problem
+Interpolation is used in weather forecasting, engineering and estimating missing measurements.
+
+## 9. Assumptions
+The data points are numerical, and the relationship between nearby points is approximately linear.
+
+## 10. New Input Data
+The modified data is:
+
+x = [1, 2, 3, 4, 5]
+y = [10, 25, 35, 45, 55]
+
+## 11. Output
+Estimated value at x = 2.5 is 30.0.
+Estimated value at x = 3.5 is 40.0.
+
+## 12. Interpretation of the Modified Problem
+The modified data produces different estimated values, demonstrating how interpolation depends on the available data points.

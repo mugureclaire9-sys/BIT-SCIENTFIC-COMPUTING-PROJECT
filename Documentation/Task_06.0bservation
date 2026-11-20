@@ -1,0 +1,45 @@
+# Task 6: Systems of Linear Equations
+
+## 1. Objective
+The aim is to solve simultaneous linear equations using NumPy.
+
+## 2. Inputs
+The program uses two equations:
+2x + y = 8
+x + 3y = 13
+
+## 3. Mathematical Operations
+The program uses NumPy's `np.linalg.solve()` function to calculate the unknown values of x and y.
+
+## 4. Original Output
+The program produces:
+x = 2.2
+y = 3.6
+
+## 5. Modified Input
+I changed the first constant from 8 to 10.
+
+## 6. Observation
+Changing the first constant changes the values of x and y.
+
+## 7. Interpretation
+NumPy can solve simultaneous equations accurately and efficiently.
+
+## 8. Related Real-World Problem
+Businesses can use simultaneous equations to calculate quantities of products sold at different prices.
+
+## 9. Assumptions
+The equations have unique solutions, and all coefficients are known.
+
+## 10. New Input Data
+The modified equations are:
+2x + y = 10
+x + 3y = 13
+
+## 11. Output
+The modified solution is:
+x = 3.4
+y = 3.2
+
+## 12. Interpretation of the Modified Problem
+The new solutions show how changing a constant affects the unknown values. This method is useful in solving business and engineering problems.
